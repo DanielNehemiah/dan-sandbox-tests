@@ -6,8 +6,9 @@
 5. Installed conda
     - Created an env with python 3.10
     - Installed cuda torch
-    - Installed transformers
-    - Tried inference with a roberta model
+6. Realized gpu drivers are not installed
 
 ### Todo
-7. Tried inference using roberta
+    - Install transformers
+    - Test torch GPU
+    - Try inference with a roberta model
