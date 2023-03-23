@@ -31,3 +31,11 @@
     - `sudo yum install cuda-drivers`
 6. Failed to install NVIDIA drivers
 7. Suggested sagar to setup a different AMI with nvidua already set up
+
+
+## 23rd March 2023 03.15pm to 5pm
+1. Tried the new instance
+2. Created an environment, installed torch and tested gpu with torch (`source dan/d_env/bin/activate`)
+3. Installed and setup jupyter lab https://medium.com/analytics-vidhya/jupyterlab-on-aws-ec2-d6b2cb945e54
+4. Installed transformers and tested roberta inference
+5. Tested ESG-BERT inference
