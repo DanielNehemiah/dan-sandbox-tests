@@ -13,5 +13,5 @@ https://stackoverflow.com/questions/16744863/connect-to-amazon-ec2-file-director
 ## Create a kernel from an environment
 `ipython kernel install --name "local-venv" --user`
 
-## Starting jupyterlab
-jupyter-lab --no-browser
+## Starting jupyterlab to run in the background
+`jupyter-lab --no-browser`
