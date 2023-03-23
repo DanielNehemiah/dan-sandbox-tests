@@ -9,6 +9,25 @@
 6. Realized gpu drivers are not installed
 
 ### Todo
-    - Install transformers
-    - Test torch GPU
-    - Try inference with a roberta model
+- Install transformers
+- Test torch GPU
+- Try inference with a roberta model
+
+
+## 23rd March 2023 11.15am to 11.45am
+1. Verified GPU availability: `lspci | grep -i nvidia`
+2. Installed GCC as a pre-requisite to install CUDA `https://devcoops.com/install-gcc-on-amazon-linux-2/`
+3. Installed updated kernel headers `sudo yum install kernel-devel-$(uname -r) kernel-headers-$(uname -r)`
+    - uname -r
+    - 5.10.167-147.601.amzn2.x86_64
+    - Installed:
+    - kernel-devel.x86_64 0:5.10.167-147.601.amzn2
+4. Installed CUDA Toolkit https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=CentOS&target_version=7&target_type=rpm_network
+5. Tried to install NVIDIA drivers
+    - `sudo yum install nvidia-driver-latest-dkms`
+    - `sudo yum install cuda-drivers`
+    - `sudo yum install nvidia-driver-latest-dkms`
+    - `sudo yum install cuda`
+    - `sudo yum install cuda-drivers`
+6. Failed to install NVIDIA drivers
+7. Suggested sagar to setup a different AMI with nvidua already set up
